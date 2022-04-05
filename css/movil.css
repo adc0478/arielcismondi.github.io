@@ -1,0 +1,50 @@
+@media screen and (max-width:768px) {
+  section{
+   width: 90%;
+  }
+  h1{
+   font-size:1.5em;
+  }
+  p{
+    font-size:1em;
+  }
+  h2{
+    font-size:1em;
+  }
+  article{
+   margin-top:100px;
+  }
+  /*Quien soy*/
+  .quien_soy .container{
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .quien_soy .container p{
+  }
+  .quien_soy .container div{
+    flex-direction: row;
+    justify-self: center;
+  }
+  /*mis trabajos*/
+  .mis_trabajos .container{
+    grid-template-columns: 1fr;
+  }
+  .mis_trabajos .container div{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"movil full"
+                        "movil texto";
+  }
+  .mis_trabajos .movil{
+    grid-area:movil;
+  }
+  .mis_trabajos .full{
+    grid-area:full;
+  }
+  .mis_trabajos .texto{
+    grid-area:texto;
+  }
+/*Servicios*/
+  .servicios .targeta{
+    grid-template-columns: 1fr;
+  }
+}

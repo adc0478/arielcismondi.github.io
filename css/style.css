@@ -1,0 +1,150 @@
+@font-face{
+  font-family:'monserrat_h1';
+  src: url('../font/Montserrat/static/Montserrat-Light.ttf');
+}
+@font-face{
+  font-family:'monserrat_p';
+  src: url('../font/Montserrat/static/Montserrat-LightItalic.ttf');
+}
+@font-face{
+  font-family:'monserrat_h2';
+  src: url('../font/Montserrat/static/Montserrat-Thin.ttf');
+}
+body{
+  padding:0px;
+  margin:0px;
+  background-color: rgb(11,24,74);
+  color:white;
+}
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px; 
+}
+article .container{
+  width: 100%;
+  height: auto;
+  background-color: rgba(196,196,196,.25);
+  padding:20px;
+}
+article{
+  margin-top:200px;
+}
+h1{
+  font-family: 'monserrat_h1';
+  font-size:2em;
+  margin: 0px;
+}
+p{
+  font-family: 'monserrat_h2';
+  font-size: 1.5em;
+  align-self: center;
+  text-align: left;
+}
+.container{
+  box-sizing: border-box;
+}
+a{ 
+  font-family: 'monserrat_h1';
+}
+h2{
+  font-family: 'monserrat_h2';
+  font-size:1.5em;
+}
+/*Quien soy*/
+.quien_soy img{
+  width:60px;
+  height:auto;
+}
+.quien_soy .container{
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+.quien_soy .container div{
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  justify-content: center;
+  gap:5px;
+}
+.quien_soy .container p{
+  width:100%;
+}
+
+/*mis trabajos*/
+.mis_trabajos .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:15px;
+}
+.mis_trabajos .container div{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap:15px;
+}
+.mis_trabajos .container img{
+  width: 90%;
+  height:auto;
+  margin: 0 auto;
+}
+.mis_trabajos h2{
+  width: 90%;
+  margin: 0 auto;
+}
+/*Servicios*/
+.servicios .targeta{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:20px;
+}
+.servicios img{
+   width:60px;
+   height:auto;
+}
+.servicios .container div{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Contacto*/
+.contacto{
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom:200px;
+  justify-content: center;
+}
+.contacto hr{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 1px solid rgb(174, 48, 254);
+}
+.contacto h2{
+  text-align: center;
+}
+.contacto img{
+  width:40px;
+  height:auto;
+}
+.contacto div{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:50px;
+}
+.redes div{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap:10px;
+}
+.redes .iconos_redes{
+  display:flex;
+  flex-direction: row;
+}
+
+/*Footer*/
+footer{
+  height: 100px;
+  background-color:rgba(196,196,196,.25);
+}

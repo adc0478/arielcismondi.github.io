@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ProgramacionZ</title>
+    <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/movil.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="cabecera">
+      <button id="btn_menu" value="0" onclick="cargar_menu()"><img class="btn_img" src="img/action/bars-solid.svg" alt=""></button>
+      <nav>
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="#quien_soy" onclick="cargar_menu()">Quien soy</a></li>
+          <li><a href="#mis_trabajos" onclick="cargar_menu()">Mis trabajos</a></li>
+          <li><a href="#servicios" onclick="cargar_menu()">Servicios</a></li>
+          <li><a href="#contacto" onclick="cargar_menu()">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article class="quien_soy" id="quien_soy">
+        <header>
+          <h1>Quien soy</h1>
+        </header>
+        <div class="container">
+          <p>Mi nombre es Ariel Cismondi, soy desarrollador web freelance.
+          <br><br>Programo en HTML, CSS, JavaScript, MySQL y PHP.
+          <br><br>Me formé con capacitaciones online en JavaScript y PHP avanzado de la UTN.
+          <br><br>Tengo basta experiencia en desarrollo de soluciones VBA en EXCEL. Automatizando procesos para registrar, modificar y eliminar información. Con el fin de contar con los datos necesarios a la hora de generar reportes automáticos.
+          <br><br>Esta experiencia me permitió mejorar la lógica del desarrollo e implementación de soluciones</p>
+          <div>
+            <img src="img/stack/html.png" alt="">
+            <img src="img/stack/css-3.png" alt="">
+            <img src="img/stack/java-script.png" alt="">
+            <img src="img/stack/php (1).png" alt="">
+            <img src="img/stack/mysql.png" alt="">
+          </div>
+        </div>
+
+
+      </article>
+      <article class="mis_trabajos" id="mis_trabajos">
+        <header>
+          <h1>Mis trabajos</h1>
+        </header>
+        <div class="container">
+          <div>
+            <img class="full" src="img/proyectos/screem2.png"  alt="">
+            <img class="movil" src="img/proyectos/screen4.png"  alt="">
+            <h2 class="texto">Formulario envío de mail desarrollado con PHP</h2>
+          </div>
+          <div>
+            <img class="full" src="img/proyectos/screem1.png"  alt="">
+            <img class="movil" src="img/proyectos/screen3.png"  alt="">
+            <h2 class="texto">Landing page desarrollada en HTML, CSS y Javascript</h2>
+          </div>
+          <div>
+            <img class="full" src="img/proyectos/screem5.png" alt="">
+            <img class="movil" src="img/proyectos/screen6.png" alt="">
+            <h2 class="texto">Formulario de login desarrollado con PHP</h2>
+          </div>
+        </div>
+      </article>
+      <article class="servicios" id="servicios">
+        <header>
+          <h1>Mis servicios</h1>
+        </header>
+        <div class="targeta">
+          <div class="container">
+            <div>
+              <img src="img/stack/html.png" alt="">
+              <img src="img/stack/css-3.png" alt="">
+            </div>
+            <p>Desarrollo tu landing page ajustando el diseño a tus necesidades.</p>
+          </div> 
+          <div class="container">
+            <div>
+              <img src="img/stack/html.png" alt="">
+              <img src="img/stack/css-3.png" alt="">
+              <img src="img/stack/java-script.png" alt="">
+            </div>
+            <p>También puedo realizar animaciones con el uso de CSS y conectar el servidor con tu página a través de Javascript otorgando funcionalidad más allá del contenido visual.</p>
+          </div>
+          <div class="container">
+            <div>
+              <img src="img/stack/html.png" alt="">
+              <img src="img/stack/css-3.png" alt="">
+              <img src="img/stack/java-script.png" alt="">
+              <img src="img/stack/php (1).png" alt="">
+              <img src="img/stack/mysql.png" alt="">
+            </div>
+            <p>Si lo necesitas desarrollo del lado del servidor con PHP donde se puede entre otras cosas crear un sistema de registro, envío de mail y mucho más.</p>
+          </div>  
+        </div>
+      </article>
+
+
+    </section>
+    <div class="contacto" id="contacto">
+      <hr>
+      <div class="redes">
+        <div>
+          <h2>contacteme:</h2>
+          <div class="iconos_redes">
+            <a href=""><img src="img/redes/whatsapp (2).png" alt=""></a>
+            <a href="mailto:adc.0478@gmail.com"><img src="img/redes/gmail.png" alt=""></a>
+          </div>
+        </div>
+        <div>
+          <h2>Sigueme en:</h2>
+          <div class="iconos_redes"> 
+            <a href=""><img src="img/redes/facebook (1).png" alt=""></a>
+            <a href=""><img src="img/redes/instagram.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+  <script charset="utf-8" src="js/main.js">
+
+  </script>
+</html>
