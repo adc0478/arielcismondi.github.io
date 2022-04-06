@@ -147,4 +147,16 @@ h2{
 footer{
   height: 100px;
   background-color:rgba(196,196,196,.25);
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-content:center;
+}
+footer img{
+  width:30px;
+  height:auto;
+  margin-left: 10px;
+}
+footer span{
+  text-align:right;
+  margin-right: 10px;
 }
