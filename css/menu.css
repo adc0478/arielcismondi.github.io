@@ -6,6 +6,7 @@
    position: fixed;
    top:0;
    display: grid;
+   z-index:100 ;
 } 
 .cabecera nav{
    width:auto;
@@ -33,7 +34,7 @@
 }
 .cabecera a:hover{
   animation-name: ver_li;
-  animation-duration:0.5s;
+  animation-duration:1s;
   animation-fill-mode: forwards;
 }
 @keyframes ver_li{
