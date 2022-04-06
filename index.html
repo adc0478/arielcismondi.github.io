@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/movil.css" type="text/css" media="screen" title="no title" charset="utf-8">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="cabecera">
@@ -47,7 +44,7 @@
 
 
       </article>
-      <article class="mis_trabajos" id="mis_trabajos">
+      <article data-aos="fade-up" class="mis_trabajos" id="mis_trabajos">
         <header>
           <h1>Mis trabajos</h1>
         </header>
@@ -69,12 +66,12 @@
           </div>
         </div>
       </article>
-      <article class="servicios" id="servicios">
+      <article data-aos="fade-up" class="servicios" id="servicios">
         <header>
           <h1>Mis servicios</h1>
         </header>
         <div class="targeta">
-          <div class="container">
+          <div  class="container">
             <div>
               <img src="img/stack/html.png" alt="">
               <img src="img/stack/css-3.png" alt="">
@@ -87,7 +84,7 @@
               <img src="img/stack/css-3.png" alt="">
               <img src="img/stack/java-script.png" alt="">
             </div>
-            <p>También puedo realizar animaciones con el uso de CSS y conectar el servidor con tu página a través de Javascript otorgando funcionalidad más allá del contenido visual.</p>
+            <p>También puedo realizar animaciones con el uso de CSS. Conectar el servidor con tu página a través de JavaScript, lo que da funcionalidad más allá del contenido visual.</p>
           </div>
           <div class="container">
             <div>
@@ -107,14 +104,15 @@
     <div class="contacto" id="contacto">
       <hr>
       <div class="redes">
-        <div>
-          <h2>Contacto:</h2>
+        <div data-aos="fade-up">
+          <h2>Contacteme:</h2>
           <div class="iconos_redes">
-            <a href=""><img src="img/redes/whatsapp (2).png" alt=""></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5491165683402"><img src="img/redes/whatsapp (2).png" alt=""></a>
             <a href="mailto:adc.0478@gmail.com"><img src="img/redes/gmail.png" alt=""></a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <h2>Seguime:</h2>
           <div class="iconos_redes"> 
             <a href=""><img src="img/redes/facebook (1).png" alt=""></a>
@@ -123,9 +121,20 @@
         </div>
       </div>
     </div>
-    <footer></footer>
+    <footer>
+      <div>
+        <a href=""><img src="img/redes/facebook (1).png" alt=""></a>
+        <a href=""><img src="img/redes/instagram.png" alt=""></a>
+      </div> 
+      <span>ProgramadorZ</span>
+    </footer>
   </body>
-  <script charset="utf-8" src="js/main.js">
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script charset="utf-8" src="js/main.js"></script>
+  <script charset="utf-8">
+    AOS.init({
+      delay:50,
+      duration:350
+    });
   </script>
 </html>
